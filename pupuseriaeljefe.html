@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pupuseria EL Jefe</title>
+</head>
+<body>
+    <header>
+        <h1>La mejor pupuseria desde 2022</h1>
+    </header>
+
+    <section>
+    <img src="./pupuseria el jefe.png" alt="Logo Pupuseria el Jefe"/>
+    
+    <h2>Menú</h2>
+    <h3>Pupas de Arroz</h3>
+    <p>Todas nuestras pupusas incluyen materiales frescos</p>
+    <ul>
+        <li>Loroco.............. $1.50</li>
+        <li>Chicharron.............. $1.50</li>
+        <li>Cochinito.............. $1.50</li>
+        <li>Ayote.............. $1.50</li>
+        <li>Mora.............. $1.50</li>
+    </ul>
+
+    <h3>Pupas de maiz</h3>
+    <p>Todas nuestras pupusas incluyen materiales frescos</p>
+    <ul>
+        <li>Loroco.............. $2.50</li>
+        <li>Chicharron.............. $2.50</li>
+        <li>Cochinito.............. $2.50</li>
+        <li>Ayote.............. $2.50</li>
+        <li>Mora.............. $2.50</li>
+    </ul>
+
+    <h3>Especiales</h3>
+    <p>Todas nuestras pupusas incluyen materiales frescos</p>
+    <dl>
+        <dt><b>Loca</b></dt>
+        <dd>- Chicharrón de cachete de cerdo + pollo + puyaso + queso super especial de la casa</dd>
+        <dt><b>Italiana</b></dt>
+        <dd>- 5 Clases de queso especial para deleitarse el paladar</dd>
+        <dt><b>Camarón</b></dt>
+        <dd>- Marisco fresco 100% nacional</dd>
+
+    </dl>
+    </section>
+
+    
+    <hr>
+    <section>
+    <h2>Ubicación</h2>
+    <h3> Sucursales</h3>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Occidente</td>
+            <td><a href="https://goo.gl/maps/tJFwq8XGPDhNzCJWA" target="_blank">Walmart, Redondel Schafik Handal, Blvr. Constitución</a></td>
+            <td>L - D 5:00 PM - 10 PM</td>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="https://goo.gl/maps/tJFwq8XGPDhNzCJWA" target="_blank">Walmart, Redondel Schafik Handal, Blvr. Constitución</a></td>
+            <td>L - D 5:00 PM - 10 PM</td>
+        </tr>
+        <tr>
+            <td>Oriente</td>
+            <td><a href="https://goo.gl/maps/tJFwq8XGPDhNzCJWA" target="_blank">Walmart, Redondel Schafik Handal, Blvr. Constitución</a></td>
+            <td>L - D 5:00 PM - 10 PM</td>
+        </tr>
+    </table>
+    </section>
+
+    <hr>
+
+    <section>
+    <h2>Pedidos</h2>
+    <h3>Haz tu pedido aqui</h3>
+
+    <form>
+        <p>¿De que sucursal quieres?</p>
+        <select>
+            <option value="Centro">Centro</option>
+            <option value="Occidente">Occidente</option>
+            <option value="Oriente">Oriente</option>
+        </select>
+
+        <p>¿Que especialidad deseas?</p>
+        <input type="checkbox" id="Loroco" name="Loroco" value="Loroco">
+        <label for="Loroco">Pupusa de Loroco</label>
+        <input type="number" id="Loroco" placeholder="¿Cuántas?">
+        <br>
+        <input type="checkbox" id="Camarón" name="Camarón" value="Camarón">
+        <label for="Camarón">Pupusa de Camarón</label>
+        <input type="number" id="Camarón" placeholder="¿Cuántas?">
+        <br>
+        <input type="checkbox" id="Cochinito" name="Cochinito" value="Cochinito">
+        <label for="Cochinito">Pupusa de Cochinito</label>
+        <input type="number" id="Cochinito" placeholder="¿Cuántas?">
+        
+        <br><br>
+
+        <label for="Nombre">Nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
+
+        <br><br>
+
+        <label for="Teléfono">Teléfono</label><br>
+        <input type="text" id="Teléfono" name="Teléfono" placeholder="¿Tu Teléfono?">
+
+        <br><br>
+
+        <label for="Dirección">Dirección</label><br>
+        <input type="text" id="Dirección" name="Dirección" placeholder="¿Tu Dirección?">
+
+        <button type="submit">Enviar pedido</button>
+    </form>
+    </section>
+
+
+</body>
+</html>

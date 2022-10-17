@@ -1,1 +1,1 @@
-# Practicas-VS-CODE
+# Simplemente las prácticas
